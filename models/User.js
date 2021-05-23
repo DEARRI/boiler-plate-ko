@@ -15,7 +15,7 @@ const userSchema = mongoose.Schema({
         minlength: 5
     },
     lastname: {
-        type: Stirng,
+        type: String,
         maxlength: 50
     },
     role: {
